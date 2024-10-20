@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Khet Se Bazaar</string>
+    <string name="welcome">Welcome,</string>
+    <string name="see_whats_next">See What\'s Next...</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="profile">profile</string>
+    <string name="owner">LAL BAHADUR</string>
+</resources>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Farmers_home">
+
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+              <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                  android:layout_marginTop="13dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/img1">
+
+              </ImageView>
+              <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginRight="5dp"
+                  android:src="@drawable/setting_icon">
+
+              </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/owner"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="1in"
+                    android:layout_marginTop="19dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="75mm">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="78dp"
+            android:layout_marginEnd="-1dp"
+            android:src="@drawable/farmer_home_logo">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/third_layout"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginStart="5dp"
+            android:text="My Services"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fourth_layout"
+        android:layout_below="@+id/third_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+         <!--      vegetables  -->
+        <ImageView
+            android:id="@+id/vegetables"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/vegetables">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/orders"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="40dp"
+
+            android:src="@drawable/orders">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/notification"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/notification">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fifth_layout"
+        android:layout_below="@+id/fourth_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vegetables"
+            android:layout_marginLeft="35dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orders"
+            android:layout_marginLeft="65dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:layout_marginLeft="66dp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/sixt_layout"
+        android:layout_below="@+id/fifth_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <!--      vegetables  -->
+        <ImageView
+            android:id="@+id/chats"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/chats">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/payments"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="40dp"
+
+            android:src="@drawable/payment">
+
+        </ImageView>
+
+<!--        <ImageView
+            android:id="@+id/vegetab"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/vegetables">
+
+        </ImageView>-->
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/seventh_layout"
+        android:layout_below="@+id/sixt_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chats"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payments"
+            android:layout_marginLeft="71dp"/>
+
+<!--        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:layout_marginLeft="66dp"/>-->
+
+
+    </LinearLayout>
+
+
+<!--    bottom layout-->
+
+    <LinearLayout
+        android:id="@+id/eighth_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seventh_layout"
+        android:layout_marginTop="13mm"
+        android:orientation="horizontal">
+
+        <!--      vegetables  -->
+        <ImageView
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/home_icon">
+
+        </ImageView>
+
+        <ImageView
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="38dp"
+
+            android:src="@drawable/add_icon">
+
+        </ImageView>
+
+        <ImageView
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="43dp"
+            android:src="@drawable/search_icon">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/chats_icon">
+
+        </ImageView>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
